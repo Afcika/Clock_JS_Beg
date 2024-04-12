@@ -1,0 +1,24 @@
+body{
+  margin: 0;
+  background-image: url(https://media.architecturaldigest.com/photos/5dd81f1f81555100083d91d1/16:9/w_2560%2Cc_limit/GettyImages-545095600.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+
+#conteiner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+
+}
+#clock{
+  font-family: monospace;
+  font-weight: 700;
+  font-size: 6.5rem;
+  color: white;
+  backdrop-filter: blur(5px);
+width: 100%;
+background-color: hsla(0, 0%, 100%, 0.15);
+}
